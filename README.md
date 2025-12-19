@@ -66,6 +66,13 @@ The backend handles:
 - `GET /analytics/summary` — Returns analytics metrics
 - `GET /health` — Health check
 
+To run:
+
+```bash
+cd backend
+uvicorn main:app --reload
+
+
 ---
 
 ## 🔧 Frontend — Streamlit Chat & Dashboard
@@ -82,5 +89,4 @@ To run:
 cd frontend
 streamlit run app.py
 
-## 📁 Project Structure
 
